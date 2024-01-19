@@ -1,3 +1,5 @@
+using ContentContext;
+
 namespace Balta.ContentContext{
     public class Careeritem
     {
