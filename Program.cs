@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Balta.ContentContext;
+using Balta.SubscriptionContext;
 using ContentContext;
 
 var articles = new List<Article>();
@@ -50,3 +51,7 @@ foreach (var career in careers)
         }
     }
 }
+
+var payPalSubscription = new PayPalSubscription();
+var student = new Student();
+student.Subscriptions.Add(payPalSubscription);
